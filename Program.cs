@@ -36,6 +36,7 @@ string[] FindElementArray(string[] array)
             j++;
         }
     }
+    Console.WriteLine($"Найденные элементы, длина которых меньше 4-х: [{string.Join(", ", newArray)}]");
     return newArray;
 }
 
