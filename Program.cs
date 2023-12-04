@@ -22,3 +22,6 @@ string[] CreateArray(int length)
     Console.WriteLine($"Введенные данные: [{string.Join(", ", array)}]");
     return array;
 }
+
+Console.Write("Введите количество элементов: ");
+int length = int.Parse(Console.ReadLine()!);
