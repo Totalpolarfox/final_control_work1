@@ -21,5 +21,5 @@
 
 Запускаем действия:</br>
 ```
-FindElementArray(CreateArray(length))</br>
+FindElementArray(CreateArray(length))
 ```
