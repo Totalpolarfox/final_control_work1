@@ -23,5 +23,22 @@ string[] CreateArray(int length)
     return array;
 }
 
+string[] FindElementArray(string[] array)
+{
+    
+    string[] newArray = new string[count];
+    int j = 0;
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (array[i].Length < 4)
+        {
+            newArray[j] = array[i];
+            j++;
+        }
+    }
+    return newArray;
+}
+
+
 Console.Write("Введите количество элементов: ");
 int length = int.Parse(Console.ReadLine()!);
