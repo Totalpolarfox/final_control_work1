@@ -10,3 +10,14 @@
 */
 
 
+string[] CreateArray(int length)
+{
+    string[] array = new string[length];
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"Введите элемент {i + 1}: ");
+        string element = Console.ReadLine();
+        array[i] = element;
+    }
+    return array;
+}
