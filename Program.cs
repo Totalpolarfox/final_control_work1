@@ -50,3 +50,4 @@ string[] FindElementArray(string[] array)
 
 Console.Write("Введите количество элементов: ");
 int length = int.Parse(Console.ReadLine()!);
+FindElementArray(CreateArray(length));
