@@ -19,5 +19,6 @@ string[] CreateArray(int length)
         string element = Console.ReadLine();
         array[i] = element;
     }
+    Console.WriteLine($"Введенные данные: [{string.Join(", ", array)}]");
     return array;
 }
