@@ -25,7 +25,14 @@ string[] CreateArray(int length)
 
 string[] FindElementArray(string[] array)
 {
-    
+    int count = 0;
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (array[i].Length < 4)
+        {
+            count++;
+        }
+    }
     string[] newArray = new string[count];
     int j = 0;
     for (int i = 0; i < array.Length; i++)
